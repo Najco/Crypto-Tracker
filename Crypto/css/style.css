@@ -1,0 +1,21 @@
+#customNotification {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: #0d6efd;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: top 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+#customNotification.show {
+  top: 20px;
+  opacity: 1;
+}
+.price-up { color: green; }
+.price-down { color: red; }
+.card img { width: 32px; height: 32px; }
